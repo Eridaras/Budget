@@ -1,0 +1,59 @@
+.tabla-container {
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.presupuesto-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 0;
+}
+
+.presupuesto-tabla th,
+.presupuesto-tabla td {
+  border: 1px solid #0055b8;
+  padding: 8px 12px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.presupuesto-tabla th {
+  background-color: #0055b8;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 0 !important; /* Eliminar redondeo en los encabezados */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.editable-input {
+  width: 100%;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.loading-msg,
+.empty-msg {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.presupuesto-tabla td {
+  text-align: center;
+}
+
+/* Estilo sticky para el header */
+.presupuesto-tabla th {
+  position: sticky;
+  top: 0;
+  background-color: #0055b8;
+  z-index: 2;
+}

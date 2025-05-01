@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    background-color: #0055b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  .header-logo {
+    height: 50px;
+  }
+  
+  .logout-text {
+    position: absolute;
+    right: 20px;
+    color: white;
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  

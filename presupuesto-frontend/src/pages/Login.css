@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #f3f7fa;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background-color: #0055b8 !important;
+  padding: 30px 40px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+  text-align: center;
+  border-radius: 16px !important;
+}
+
+.login-logo {
+  width: 160px;
+  margin-bottom: 15px;
+}
+
+.login-title {
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* INPUTS */
+
+.MuiTextField-root {
+  margin-bottom: 15px !important;
+  width: 100%;
+}
+
+.MuiOutlinedInput-root {
+  background-color: #ffffff !important;
+  border-radius: 12px !important;
+  height: 50px;
+  font-size: 16px;
+}
+
+.MuiOutlinedInput-root input::placeholder {
+  color: #0055b8 !important;
+  font-weight: 500;
+}
+
+/* Mostrar label azul antes de escribir */
+.MuiInputLabel-root {
+  color: #0055b8 !important;
+  font-weight: 500;
+}
+
+/* Ocultar completamente el label cuando el campo está en foco */
+.MuiInputLabel-shrink {
+  display: none !important;
+}
+
+/* BOTÓN */
+
+.login-button {
+  margin-top: 20px !important;
+  background-color: #ffffff !important;
+  color: #0055b8 !important;
+  padding: 10px !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  border-radius: 25px !important;
+  width: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-button:hover {
+  background-color: #e1e1e1 !important;
+}
+
+.error-text {
+  color: #ffcccb;
+  margin-top: 10px;
+}

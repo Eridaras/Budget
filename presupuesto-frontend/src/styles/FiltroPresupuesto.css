@@ -1,0 +1,30 @@
+.filtros-container {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .filtro-input {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .btn-limpiar {
+    padding: 8px 16px;
+    background-color: #0055b8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .filtro-input[type='number'] {
+    width: 100px;
+  }
+  

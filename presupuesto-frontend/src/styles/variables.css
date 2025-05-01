@@ -1,0 +1,15 @@
+:root {
+    /* Colores */
+    --color-primary: #0055b8;
+    --color-secondary: #ffffff;
+    --color-background: #f4f7fa;
+    --color-text: #333333;
+  
+    /* Tipografía */
+    --font-family-primary: 'Montserrat', sans-serif;
+  
+    /* Tamaños tipográficos */
+    --font-size-base: 16px;
+    --font-size-title: 24px;
+  }
+  
